@@ -1,0 +1,49 @@
+{
+  "Title": "Luceria",
+  "Navbar": {
+    "Title": "Luceria",
+    "Home": "Home",
+    "Services": "Services",
+    "Showcase": "Showcase",
+    "Contact": "Contact Us",
+    "About": "About Us",
+    "Language": "Language",
+    "SWE": "Swedish",
+    "ENG": "English"
+  },
+  "Footer": {
+    "Services": {
+      "Title": "Services"
+    },
+    "Contact": {
+      "Title": "Contact Us",
+      "Phone": "0743324983",
+      "Mail": "test@gmail.com"
+    },
+    "About": {
+      "Title": "About Us",
+      "About": "About Luceria",
+      "History": "History"
+    },
+    "Socials": {
+      "Title": "Socials",
+      "Instagram": "Instagram",
+      "Tiktok": "Tiktok"
+    }
+  },
+  "Page": {
+    "HomePage": {},
+    "ServicesPage": {
+      "Title": "Services"
+    },
+    "ShowcasePage": {},
+    "ContactPage": {
+      "Title": "Contact Us",
+      "MailTitle": "Send Mail",
+      "PhoneTitle": "Call Us",
+      "Mail": "Mail:",
+      "Phone": "Phone: 070 281 45 60"
+    },
+    "AboutPage": {}
+  }
+}

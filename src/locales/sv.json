@@ -1,0 +1,38 @@
+{
+  "Title": "Luceria",
+  "Navbar": {
+    "Title": "Luceria",
+    "Home": "Hem",
+    "Services": "Tjänster",
+    "Showcase": "Showcase",
+    "Contact": "Kontakta oss",
+    "About": "Om oss"
+  },
+  "Footer": {
+    "Services": {
+      "Title": "Tjänster"
+    },
+    "Contact": {
+      "Title": "Kontakta oss",
+      "Phone": "0743324983",
+      "Mail": "test@gmail.com"
+    },
+    "About": {
+      "Title": "Om oss",
+      "About": "Om Luceria",
+      "History": "Historian"
+    },
+    "Socials": {
+      "Title": "Sociala Medier",
+      "Instagram": "Instagram",
+      "Tiktok": "Tiktok"
+    }
+  },
+  "Page": {
+    "HomePage": {},
+    "ServicesPage": {},
+    "ShowcasePage": {},
+    "ContactPage": {},
+    "AboutPage": {}
+  }
+}
