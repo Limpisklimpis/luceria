@@ -1,9 +1,15 @@
 <template>
   <div class="home">
-    <h1>Luceria</h1>
-    <h2>Vi hjälper företag att sticka ut som arbetsgivare med kreativ, autentisk och strategisk contentproduktion – anpassad för sociala medier och dagens talanger.</h2>
+    <img src="/src/assets/logo.png" alt="" width="15%" />
+    <h1>Välkommen till Luceria</h1>
+    <h2>
+      Din partner för äkta employer branding som talar direkt till Gen Z. Här får du en snabb
+      översikt av hur vi bygger förtroende med kortformat-­innehåll, matchar rätt talanger och
+      stöttar unga kreatörer. Scrolla vidare för att se våra tjänster, case och hur du kan boka en
+      workshop.
+    </h2>
 
-   <!-- 
+    <!-- 
     <div class="read-more">
       <h2 class="read-more-title">Framtidens talanger väntar inte - vi hjälper dig nå dem idag.</h2>
       <RouterLink to="/about" class="btn-outlined">Läs mer</RouterLink>
@@ -18,21 +24,23 @@
   width: 100%;
   height: 100%;
   flex-direction: column;
+  align-items: center;
 }
 .home h1 {
   font-weight: var(--font-extrabold);
   text-align: center;
-  font-size: var(--text-6xl);
+  font-size: var(--text-4xl);
   background: -webkit-linear-gradient(#eee, #757575);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-bottom: 40px;
+  padding: 40px;
 }
 .home h2 {
   font-weight: var(--font-extrabold);
   text-align: center;
   font-size: var(--text-lg);
-
+  padding: 0 40px 0 40px;
+  color: var(--text-color);
 }
 
 .read-more {

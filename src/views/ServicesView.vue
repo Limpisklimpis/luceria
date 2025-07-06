@@ -22,9 +22,23 @@ import { useI18n } from 'vue-i18n'
 const { t, locale } = useI18n()
 const services = ref([
   {
-    name: 'Employer Branding Content Package',
-    description:
-      'Lucerias kärntjänst är ett employer branding-paket som kombinerar strategi, storytelling och contentproduktion. Tjänsten är skapad för företag som vill nå ut till framtida medarbetare och stärka sin attraktionskraft – på ett sätt som faktiskt känns äkta.',
+    name: 'Employer Branding',
+    description: 'Visa vem ni verkligen är – utan reklamspret.',
+    route: '/services/employer',
+  },
+  {
+    name: 'Talent Match',
+    description: 'Visa vem ni verkligen är – utan reklamspret.',
+    route: '/services/employer',
+  },
+  {
+    name: 'Creator Boost',
+    description: 'Visa vem ni verkligen är – utan reklamspret.',
+    route: '/services/employer',
+  },
+  {
+    name: 'Workshops & Föreläsningar',
+    description: 'Visa vem ni verkligen är – utan reklamspret.',
     route: '/services/employer',
   },
 ])
@@ -38,7 +52,7 @@ h1 {
   background: -webkit-linear-gradient(#eee, #757575);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-bottom: 40px;;
+  padding-bottom: 40px;
 }
 
 .services {
@@ -48,7 +62,8 @@ h1 {
   padding: 20px;
   margin: 20px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+
   background-image: url('/src/assets/bg_dark.JPG');
 
   background-size: cover;
@@ -62,7 +77,7 @@ h1 {
   padding: 20px;
   margin: 20px;
   width: 100%;
-  background-color: white;
+  background-color: #171717;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
